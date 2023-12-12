@@ -1,6 +1,10 @@
 // Import express
 const express = require('express');
 
+// Import routes
+const htmlRoutes = require('./routes/htmlRoutes');
+const apiRoutes = require('./routes/apiRoutes');
+
 // Setting the PORT
 const PORT = process.env.PORT || 3001; 
 
