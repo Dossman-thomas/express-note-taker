@@ -52,5 +52,17 @@ router.post('/api/notes', (req, res) => {
 })
 
 
+// Handle delete functionality for HTTP DELETE requests to '/api/notes/:id' 
+// the following code was written with the assistance of ChatGPT 3.5
+router.delete('/api/notes/:id', (req, res) => {
+
+  const dbJson = readJson(); 
+  const newNotes = dbJson.filter((note) => note.id !== req.params.id); // reads existing JSON data, filters out the note with a specified ID from request parameters
+  writeJson(newNotes); // writes filtered data back to the file
+  res.json({ message: 'Note successfully deleted.' }); // sends json message of the notes deletion
+
+}); 
+
+
 // export router instance
 module.exports = router; 
