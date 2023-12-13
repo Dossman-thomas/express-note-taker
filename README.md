@@ -22,14 +22,14 @@ A note taking application that can write and store notes to help the user improv
 
 ## Screenshots
 ### App Landing Page
-![Screenshot 1](./Develop/public/assets/media/NoteTakerSS.png)
+![Screenshot 1](./public/assets/media/NoteTakerSS.png)
 ### Notes Written and Saved
-![Screenshot 2](./Develop/public/assets/media/NoteTakerSS1.png)
+![Screenshot 2](./public/assets/media/NoteTakerSS1.png)
 ### Notes Deleted
-![Screenshot 3](./Develop/public/assets/media/NoteTakerSS2.png)
+![Screenshot 3](./public/assets/media/NoteTakerSS2.png)
 
 ## Installation
-No installation necessary.  Simply visit the application's deployed like here: 
+No installation necessary.  Simply visit the application's deployed like [here](https://dossman-note-taker-cc89ef426e52.herokuapp.com/)
 
 ## Usage
 
