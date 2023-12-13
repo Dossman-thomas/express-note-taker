@@ -1,6 +1,8 @@
 package-lock.json
 .vscode
+vs_code
 .DS_Store
+Thumbs.db 
 
 # Logs
 logs
